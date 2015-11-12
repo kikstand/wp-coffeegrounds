@@ -1,0 +1,85 @@
+.x-brand img {
+  width: 80px !important; }
+.x-brand.text {
+  text-transform: none !important;
+  letter-spacing: normal !important; }
+
+.cg-background__chalkboard .entry-wrap {
+  background-color: #231f20 !important; }
+
+.cg-item__title {
+  color: #ffffff;
+  margin-top: 2px; }
+
+.cg-item__price {
+  font-size: 60%; }
+
+.cg-display__subtitle {
+  font-family: "futura-pt";
+  font-weight: 300; }
+
+.cg-embed-container {
+  position: relative !important;
+  height: 0;
+  overflow: hidden;
+  background-color: black; }
+  .cg-embed-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important; }
+
+.ratio-16x9 {
+  padding-bottom: 56.25%; }
+
+.ratio4x3 {
+  padding-bottom: 75%; }
+
+.ratio-sq {
+  padding: 100% !important; }
+
+.cg-burger {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 22px 0 0 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(51, 51, 51, 0.25);
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer; }
+  .cg-burger.cg-white {
+    border: 2px solid rgba(255, 255, 255, 0.2); }
+    .cg-burger.cg-white span {
+      background: #fff; }
+  .cg-burger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #333;
+    transition: .7s;
+    pointer-events: none;
+    transform-style: flat !important; }
+  .cg-burger :nth-child(2) {
+    margin: 3px 0; }
+  .cg-burger.open :first-child {
+    -webkit-transform: translateY(6px) rotate(-45deg);
+    -moz-transform: translateY(6px) rotate(-45deg);
+    -ms-transform: translateY(6px) rotate(-45deg);
+    -o-transform: translateY(6px) rotate(-45deg);
+    transform: translateY(6px) rotate(-45deg); }
+  .cg-burger.open :nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0; }
+  .cg-burger.open :last-child {
+    -webkit-transform: translateY(-6px) rotate(-135deg);
+    -moz-transform: translateY(-6px) rotate(-135deg);
+    -ms-transform: translateY(-6px) rotate(-135deg);
+    -o-transform: translateY(-6px) rotate(-135deg);
+    transform: translateY(-6px) rotate(-135deg); }
+
+/*# sourceMappingURL=main.css.map */
