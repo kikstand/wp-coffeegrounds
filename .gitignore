@@ -18,7 +18,6 @@ local-config.php
 *.base.*
 *.backup.*
 *.orig*
-composer.*
 
 # Misc
 license.txt
